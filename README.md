@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tauri + Next.js 启动模板
 
-## Getting Started
+[English](./README.en.md) | 中文
 
-First, run the development server:
+一个使用 Tauri 2.0 和 Next.js 构建的现代桌面应用程序启动模板,具有精美的 UI 设计。
+
+![应用预览](./show.png)
+
+## ✨ 特性
+
+- 🦀 使用 Rust 和 Tauri 2.0 构建的高性能后端
+- ⚡️ 基于 Next.js 的快速响应式前端
+- 🎨 使用 Tailwind CSS 和 shadcn/ui 构建的现代 UI
+- 📦 开箱即用的侧边栏导航组件
+- 🌗 支持亮色/暗色主题切换
+- 📱 响应式设计,支持移动端和桌面端
+- 🔒 内置安全配置
+- 🚀 使用 Turbopack 进行快速开发
+
+## 🛠️ 技术栈
+
+- [Tauri 2.0](https://tauri.app/) - 桌面应用程序框架
+- [Next.js](https://nextjs.org/) - React 框架
+- [Tailwind CSS](https://tailwindcss.com/) - CSS 框架
+- [shadcn/ui](https://ui.shadcn.com/) - UI 组件库
+- [Lucide Icons](https://lucide.dev/) - 图标库
+
+## 🚀 开始使用
+
+确保你已安装:
+
+- [Node.js](https://nodejs.org/) (v18+)
+- [Rust](https://www.rust-lang.org/) (v1.77+)
+- [pnpm](https://pnpm.io/) (v8+)
+
+## 📦 安装依赖
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 运行项目
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm tauri dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 构建项目
 
-## Learn More
+```bash
+pnpm tauri build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 许可证
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
