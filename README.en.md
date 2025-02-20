@@ -34,3 +34,23 @@ Make sure you have installed:
 - [pnpm](https://pnpm.io/) (v8+)
 
 ## 📦 Install Dependencies
+
+```bash
+pnpm install
+```
+
+## 🚀 Run the project
+
+```bash
+pnpm tauri dev
+```
+
+## 🚀 Build the project
+
+```bash
+pnpm tauri build
+```
+
+## 📄 License
+
+MIT
